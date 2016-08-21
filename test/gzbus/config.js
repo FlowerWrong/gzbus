@@ -1,0 +1,52 @@
+gps = {
+	//设置站点查询中定位按钮点击后的显示效果	0:显示站台列表	1.地图显示站点
+	showtype:0
+};
+
+debug = {
+	module:[
+    	//status说明:"open"-所有人可用,"close"-所有人不可用,"test"-设置了openId的用户可用
+    	{name:"候车到站提醒",status:"open",testStatus:"open",xxtStatus:"close"},
+        {name:"定时候车提醒",status:"open",testStatus:"open",xxtStatus:"close"},
+        {name:"简图路况",status:"open",testStatus:"open",xxtStatus:"close"},
+        {name:"站间计时",status:"close",testStatus:"close",xxtStatus:"close"},
+        {name:"预测时间",status:"open",testStatus:"open",xxtStatus:"close"},
+        {name:"详细路况",status:"close",testStatus:"close",xxtStatus:"close"},
+        {name:"非微信浏览",status:"test",testStatus:"test",xxtStatus:"open"},
+        {name:"新线路简图",status:"open",testStatus:"open",xxtStatus:"close"},
+        {name:"新电子站牌",status:"close",testStatus:"close",xxtStatus:"close"},
+        {name:"消息推送",status:"open",testStatus:"open",xxtStatus:"close"},
+        {name:"用户交互",status:"open",testStatus:"open",xxtStatus:"close"},
+        {name:"即时聊天",status:"close",testStatus:"close",xxtStatus:"close"},
+        {name:"个人中心",status:"close",testStatus:"close",xxtStatus:"close"}
+    ],
+	openId:[
+        {name:"刘松涛",id:"ouz9Ms-nDNe_PZDufdRQdnwV0S8E"},
+        {name:"卢恒",id:"ouz9Ms37L1BXNaeZKZi-D1BnOBfQ"},
+        {name:"郭肖妮",id:"ouz9Ms7S0nKilnIjrHBHJqcw-UHk"},
+        {name:"闫博",id:"ouz9Ms7EsX8o9WJGiYTEim5UBPPg"},
+        {name:"李明",id:"ouz9Ms6zXj9dCSSx5-9qz8of7o1M"},
+        {name:"肖玉佳",id:"ouz9Ms1P5Z0sKFkn94yps7coy4jQ"},
+        {name:"张靖",id:"ouz9Ms9NihQxzkL6MEeNfnjo1QEk"},
+        {name:"潘剑琴",id:"ouz9Ms2V7zkDKNjvu0HEqiiaeFf8"},
+        {name:"欧阳勇辉",id:"ouz9Ms-LvvUGr1C8sUMuGo4zYZLQ"},
+        {name:"彭聪",id:"ouz9MswByRNExDyI6bbolhOBCS0s"},
+        {name:"陈庆深",id:"ouz9Ms_WxMYJ-i8poZqmnD2kMAHs"},
+        {name:"任宇翔",id:"ouz9MszQrZvkJ-0ErcFV4wBJpYgc"},
+        {name:"严冬梅",id:"ouz9Ms8TSUq5ltNYAqxOhnE3mnvk"},
+        {name:"罗建平",id:"ouz9MsyEzN0TElN0tdawW2c58vL0"},
+        {name:"刘斌",id:"ouz9MszprmZ4_51iTSci9tY7ITJ0"},
+        {name:"陈树森",id:"ouz9MsyVcatK_Nof6aMw7Z4_dVBo"},
+        {name:"未知1",id:"ouz9Ms2-tcs6_UbLb9qZHCU544gk"},
+        {name:"未知2",id:"ouz9Ms_6lTOOdsHuDHlSY-32XjZw"},
+        {name:"未知3",id:"ouz9Ms1Twb8mf6CTKH7NO0aPTy3g"},
+        {name:"未知4",id:"ouz9Ms6IlntpRKn8cx9gZRDOs-II"}
+    ],
+    gzhUser:[
+        {name:"广州微公交",id:"gh_48847fafb05b",mark:"testStatus"},
+        {name:"行讯通",id:"gh_342e92a92760",mark:"status"},
+        {name:"二汽中核",id:"gh_47c0caa44194",mark:"status"},
+        {name:"二汽绿色",id:"gh_8a9130ab9d00",mark:"status"},
+        {name:"行讯通APP",id:"xingxuntong",mark:"xxtStatus"}
+    ]
+};

@@ -12,6 +12,16 @@ module Gzbus
       }
     end
 
+    # TODO 附近线路
+    # route/getByLatitudeAndLongitude
+    # 预计到站时间
+    # arriveRemind/remindTime POST busId:1933230 rsId:127891 => 23
+    # 附近车辆
+    # waitBus/waitTime POST rsId:127882 num:3 => [{"count":6,"time":9},{"count":-1,"time":-1},{"count":-1,"time":-1}]
+    # 方向查询???
+    # http://wxbus.gzyyjt.net/wei-bus-app/road/getByRouteAndDirection/755/0 => [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+
     # @return
     # [
     #     [0] {
@@ -82,8 +92,8 @@ module Gzbus
     # @return
     # [
     #     [ 0] {
-    #          "bl" => [],
-    #         "bbl" => []
+    #          "bl" => [], 正到站
+    #         "bbl" => [] 站牌直接
     #     },
     #     [ 1] {
     #          "bl" => [],
